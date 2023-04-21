@@ -1,6 +1,12 @@
 # lglass
 Network looking glass utility in PHP
 
+
+## Release statement
+
+Version 0.1, here be dragons. I needed to publish the source code before sharing it to somebody.
+Fancier install instructions will probably be given here later.
+
 ## How to use
 Drop sources in appropriate web folder.
 
@@ -18,7 +24,3 @@ ssh-keygen -m PEM -t rsa -b 3072 -f mykey
   * cURL
   * SSH2
   * Yaml
-
-## Release statement
-
-Version 0.1, here be dragons, I needed to publish the source code before sharing it to somebody.
