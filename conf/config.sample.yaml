@@ -1,0 +1,35 @@
+# Global authentication information
+---
+config:
+    auth:
+        # Prefered method. ( 'pubkey' or 'password' )
+        auth_method: password
+        # Username
+        user: global-uname
+        # Password
+        password: global-password
+        # Public key file
+        pubkeyfile: /etc/lglass/id.pub
+        # Private key file
+        privkeyfile: /etc/lglass/id.key
+        # Key passphrase
+        passphrase: ~
+
+    routers:
+        # Friendly name of your host that will be displayed on the interface
+        localhost:
+            # Hostname to connect to (optional if your friendly name is a valid FQDN or an IP address)
+            hostname: 127.0.0.1
+            # Port (optional)
+            port: 22
+            # Machine-specific username (optional)
+            user: user
+            # Machine-specific Password (optional)
+            password: specific-password
+            # Prefered authentication method (optional)
+            auth_method: password
+            # Protocol to be used 
+            protocol: ssh
+            # Type of equipment. Refer to the list of drivers (mandatory)
+            type: linux
+        e1-vty.lan: ~

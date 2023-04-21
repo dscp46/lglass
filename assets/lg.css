@@ -1,0 +1,46 @@
+
+body
+{
+  background-color: white;
+  text-align: center;
+}
+
+a
+{
+  color: #4488bb;
+  text-decoration: none;  
+}
+
+pre
+{
+  color: #000066;
+}
+
+.title
+{
+  color: #ff0000;
+  font-family: arial;
+  font-size: 172%;
+  padding: 10px;
+}
+
+.heading
+{
+  font-family: arial;
+  font-weight: bold;
+  color: #ff0000;
+  background-color: #bbddaa;
+}
+
+.errormsg
+{
+  font-family: arial;
+  color: #ff0000;
+}
+
+.copyright
+{
+  font-family: arial;
+  font-size: 80%;
+  color: #448866;  
+}
