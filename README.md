@@ -21,7 +21,7 @@ This software inspires from [PHP Looking Glass v2.0](https://phplg.sourceforge.n
 | Cisco IOS | Full support |
 | Linux   | Partial support |
 | Mikrotik (RouterOS 7) | Partial support |
-| Ubiquiti | Without VRFs |
+| Ubiquiti Edgemax | Without VRFs |
 | VyOS 1.4 | Full support |
 
 ## Release statement
