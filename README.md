@@ -17,7 +17,7 @@ This software inspires from [PHP Looking Glass v2.0](https://phplg.sourceforge.n
 ## Supported equipments
 
 | Brand / OS release | Support |
-| --- | --- | --- |
+| --- | --- |
 | Cisco IOS | Full support |
 | Linux   | Partial support |
 | Mikrotik (RouterOS 7) | Partial support |
