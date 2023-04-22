@@ -40,7 +40,7 @@ class LGlass {
 
     public static function about()
     {
-        $app_name = get_class( $this);
+        $app_name = get_called_class();
         require('view/about.php');
     }
 
