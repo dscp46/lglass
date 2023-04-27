@@ -1,7 +1,7 @@
 <?php
 namespace lib;
 
-class drv_vyos implements \IRouterDriver {
+class drv_ubnt_emax implements \IRouterDriver {
     public function requires_arg( string $command): bool
     {
         switch( $command)
