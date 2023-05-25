@@ -106,7 +106,7 @@ class drv_mikrotik implements \IRouterDriver {
             return $cmd; 
         case 'sh ip r':
             $cmd = 'ip route print ';
-            $cmd .= (!empty($vrf)) ? "where routing-mark=$vrf " : '';
+            $cmd .= (!empty($vrf)) ? "where routing-table=$vrf " : '';
             return $cmd;
 default:
             return false;
