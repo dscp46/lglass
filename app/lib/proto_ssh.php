@@ -19,7 +19,7 @@ class proto_ssh implements \IRemoteExecutable {
         $host           = $config['hostname'];
         $port           = $config['port'] ?? 22;
         $username       = $config['user'] ?? $global_params['user'];
-        $password       = $config['password'] ?? '';
+        $password       = $config['password'] ?? $global_params['password'] ?? '';
         $privkey_fname  = isset( $config['privkeyfile']) ? $config['privkeyfile'] : $global_params['privkeyfile'] ?? '';
         $privkey_passwd = isset( $config['passphrase']) ? $config['passphrase'] : $global_params['passphrase'] ?? '';
         $pubkey_fname   = isset( $config['pubkeyfile']) ? $config['pubkeyfile'] : $global_params['pubkeyfile'] ?? '';
